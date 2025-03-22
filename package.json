@@ -1,0 +1,52 @@
+{
+  "name": "car-rent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "create-super-admin": "ts-node -r tsconfig-paths/register src/scripts/create-super-admin.ts"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^3.8.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.4",
+    "@mui/lab": "^6.0.0-beta.28",
+    "@mui/material": "^6.4.4",
+    "@mui/x-charts": "^7.27.0",
+    "@mui/x-date-pickers": "^7.27.0",
+    "@types/next-auth": "^3.13.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "car-rent": "file:",
+    "date-fns": "^2.30.0",
+    "html2canvas": "^1.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^3.0.0",
+    "mongoose": "^8.10.0",
+    "next": "^15.1.7",
+    "next-auth": "^4.24.11",
+    "react": "^19.0.0",
+    "react-big-calendar": "^1.17.1",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "react-hot-toast": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-big-calendar": "^1.16.1",
+    "@types/react-dom": "^19",
+    "dotenv": "^16.4.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5"
+  }
+}
